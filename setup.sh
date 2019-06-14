@@ -26,8 +26,5 @@ sudo usermod -aG docker "$USER"
 # Clone GitHub repo for R wrapper
 git clone https://github.com/benfasoli/stilt --depth=1 --single-branch
 
-# Build docker image
-cd stilt
-docker build -t stilt .
-
 echo "Log out of the system, then log back in."
+

@@ -34,4 +34,4 @@ docker run \
   ymx=40.95 \
   yres=0.01
 
-
+echo "Output is in $OUTDIR"
