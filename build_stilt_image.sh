@@ -2,5 +2,5 @@
 
 # Build docker image
 cd stilt
-docker build -t stilt .
+docker build -t stilt -f ../Dockerfile .
 
